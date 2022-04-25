@@ -31,3 +31,59 @@
   justify-content: flex-end;
   padding: 10px 20px;
 }
+
+.contact-section {
+  width: 90%;
+  display: none;
+  position: absolute;
+  transform: translate(-45%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.contact-section div {
+  margin: 10px auto;
+}
+
+.add-section {
+  display: block;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.book-section {
+  text-align: center;
+  display: block;
+}
+
+#form {
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#form h2 {
+  text-align: center;
+}
+
+#form input {
+  margin: 0 auto;
+  width: 100%;
+  padding: 5px;
+}
+
+#form button {
+  width: 80px;
+  align-self: flex-end;
+  box-shadow: 2px 2px 2px #000;
+  border: 2px solid #000;
+  padding: 0.15rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  border: 2px solid #000;
+  padding: 8px;
+}
