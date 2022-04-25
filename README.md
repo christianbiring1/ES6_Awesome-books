@@ -2,7 +2,7 @@
 
 > Description of the project.
 
--
+- In this project, I had to restructure our Awesome books app code. The goal is to make it more organized by using modules. I had also to practice the ES6 syntax that I have learned.
 
 ## Built With
 
@@ -44,7 +44,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- All my appreciation to our team Eid Hachem and I.
 - Hat tip to anyone who will take a glance to this project
 
 ## 📝 License

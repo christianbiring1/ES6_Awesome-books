@@ -5,3 +5,29 @@
   margin: 0;
   padding: 0;
 }
+
+.flex {
+  display: flex;
+}
+
+.header-nav {
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px solid #000;
+  align-items: center;
+}
+
+.header-title {
+  font-weight: bold;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.header {
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
