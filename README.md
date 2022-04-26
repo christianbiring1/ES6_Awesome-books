@@ -12,7 +12,7 @@
 
 ## Live Demo (if available)
 
-[You can check the live demo of my project here](https://christianbiring1.github.io/Awesome_books/)
+[You can check the live demo of my project here](https://christianbiring1.github.io/ES6_Awesome-books/)
 
 ### Prerequisites
 
