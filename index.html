@@ -4,17 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Awesome Books | ES6</title>
   </head>
   <body>
     <nav class="header-nav flex">
-      <div>Awesome Books</div>
+      <div class="header-title">Awesome Books</div>
       <ul class="nav-bar flex">
         <li class="list">List</li>
         <li class="add">Add new</li>
         <li class="contact">Contact</li>
       </ul>
     </nav>
-    <div class="header flex"><span class="header-date">date</span></div>
+    <div class="header flex"><span class="header-date"></span></div>
+    <main class="main">
+      <section class="book-section active">
+        <h1>Awesome books</h1>
+        <div class="book-store"></div>
+      </section>
+      <section class="add-section active">
+        <form id="form" class="flex">
+          <h1>Add a new book</h1>
+          <input type="text" name="title" id="title" placeholder="Title" />
+          <input type="text" name="author" id="author" placeholder="Author" />
+          <button class="add-btn" type="submit">Add</button>
+        </form>
+      </section>
+      <section class="contact-section active">
+        <h1>Contact Information</h1>
+        <div>
+          <p>
+            Do have any question or you just want to say "hello"? <br />
+            You can reach out to me!
+          </p>
+          <ul>
+            <li>My e-mail: christianbiringanine22@gmail.com</li>
+            <li>Our phone number: +250784165912</li>
+            <li>Our address: Kg Ave14, Kigali City, Rwanda</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Copyrights &copy; are reserved. Made by Christian</p>
+    </footer>
+    <script type="module" src="index.js"></script>
   </body>
 </html>

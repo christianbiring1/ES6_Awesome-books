@@ -1,7 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+@font-face {
+  font-family: cocogosebold;
+  src: url(./fonts/Cocogoose\ Pro\ Light-trial.ttf);
+}
+
+@font-face {
+  font-family: cocogose;
+  src: url(./fonts/Cocogoose\ Pro\ Ultralight-trial.ttf);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #eeeded;
+}
+
+h1 {
+  font-family: cocogosebold, sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.header-nav {
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px solid #000;
+  align-items: center;
+  box-shadow: 5px 5px 5px #b8b8b8;
+  margin-bottom: 10px;
+}
+
+.header-title {
+  font-weight: bold;
+  font-family: cocogosebold, sans-serif;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  margin: 0 5px;
+  cursor: pointer;
+  font-family: cocogose, sans-serif;
+  font-weight: bold;
+}
+
+.list {
+  color: #00ff;
+}
+
+.header {
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+.contact-section {
+  width: 90%;
+  display: none;
+  position: absolute;
+  transform: translate(-45%, -50%);
+  top: 50%;
+  left: 50%;
+  font-weight: 500;
+}
+
+.contact-section div {
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+.add-section {
+  display: none;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.book-section {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.book-section h1 {
+  text-align: center;
+}
+
+.book-store {
+  border: 1px solid #000;
+  background-color: #b8b8b8;
+  margin: 10px 0;
+}
+
+.book-container {
+  padding: 10px;
+}
+
+.book-container:nth-child(2n) {
+  background-color: #fff;
+}
+
+.delete {
+  float: right;
+  box-shadow: 2px 2px 2px #000;
+  font-family: 'Patrick Hand', cursive;
+}
+
+#form {
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#form h2 {
+  text-align: center;
+}
+
+#form input {
+  margin: 0 auto;
+  width: 100%;
+  padding: 5px;
+}
+
+#form button {
+  width: 80px;
+  align-self: flex-end;
+  box-shadow: 2px 2px 2px #000;
+  border: 2px solid #000;
+  padding: 0.15rem;
+}
+
+.footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  border: 2px solid #000;
+  padding: 8px;
+  width: 100%;
+  font-family: cocogose, sans-serif;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-nav {
+    padding: 10px 30px;
+  }
+
+  .nav-bar li {
+    margin: 0 15px;
+  }
+
+  .contact-section {
+    transform: translate(-25%, -50%);
+  }
+
+  .add-section {
+    display: none;
+    width: 75%;
+    margin: 20px auto;
+  }
+
+  .book-section {
+    width: 70%;
+  }
 }
